@@ -1,0 +1,39 @@
+body {
+      background: black;
+      font-family: 'Roboto', sans-serif;
+}
+
+.container {
+      width: 324px;
+      height: 240px;
+      margin: 40px auto;
+}
+.container__item {
+      height: 120px;
+      width: 100%;
+      z-index: 10;
+}
+.container__message {
+      display: block;
+      color: white;
+      text-align: center;
+      z-index: -10;
+      margin-top: -100px;
+      position: relative;
+      transition: all 0.5s;
+}
+.blue {
+      background-color: #307FE2;
+}
+.yellow {
+      background-color: #FAE03C;
+}
+.container:hover .container__message{
+      margin-top: -20px;
+      font-size: 20px;
+}
+
+.changed-message {
+      margin-top: -20px;
+      font-size: 20px;
+}
